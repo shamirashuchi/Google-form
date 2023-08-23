@@ -1,0 +1,28 @@
+ .radio-label {
+   transition: box-shadow 0.3s ease;
+   border-radius: 8px;
+}
+
+.radio-label:hover {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+.radio-label {
+  /* Define your label styles here */
+  border: 2px solid transparent; /* Initial border style (transparent) */
+}
+
+.radio-label.radio-primary input[type="radio"]:checked + span {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow when radio is checked */
+  border-color:  rgba(0, 0, 0, 0.5);/* Change border color to primary color */
+  border-radius: 8px; /* Rounded corners */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Add smooth transitions */
+}
+
+
+
+
+
+
+
+
